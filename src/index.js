@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
+import ThreeComponent from './components/three_component';
 import YTapi from 'youtube-api-search';
 import _ from 'lodash';
 
@@ -40,6 +41,7 @@ class App extends Component {
 					onSelectVideo = {selectedVideo => this.setState({selectedVideo})}
 				/>
 				<VideoDetail video={this.state.selectedVideo} />
+				<ThreeComponent />
 			
 			</div>
 		);

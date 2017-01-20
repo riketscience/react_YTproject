@@ -1,5 +1,5 @@
 import React from 'react';
-import THREE from 'three';
+//import THREE from 'three';
 
 const VideoDetail = ({video}) => {
 	//console.log(THREE);
